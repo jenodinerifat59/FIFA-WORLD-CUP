@@ -47,7 +47,7 @@ header{
 header .hero{
   padding-top: 248px;
 }
-header .hero h2{
+header .hero h1{
   font-size: 88px;
   font-weight: 700;
   line-height: 100%;
@@ -63,4 +63,28 @@ header .hero p{
 }
 header .hero button{
   margin: 40px 0px 140px;
+}
+
+/* ========================== */
+.info p{
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 150%;
+  letter-spacing: -0.3px;
+}
+.info h3{
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 115%;
+  letter-spacing: -2px;
+  margin-top: 24px;
+}
+.info{
+  padding: 42px 0px 53px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  width: 100;
+}
+.informatio{
+   background-color: #F4C430;
 }
