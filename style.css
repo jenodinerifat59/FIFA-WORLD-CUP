@@ -88,3 +88,123 @@ header .hero button{
 .informatio{
    background-color: #F4C430;
 }
+
+/* ========================= */
+.Explore h2{
+  margin-top: 91px;
+font-size: 56px;
+font-weight: 600;
+line-height: 115%;
+text-align: center;
+}
+.Explore .card{
+  margin-top: 56px;
+  display: grid;
+  grid-auto-rows: max-content;
+  grid-template-areas: "box1 box2 box2";
+  gap: 48px;
+}
+.Explore .card .box1{
+  grid-area: box1;
+}
+.Explore .card .box2{
+  grid-area: box2;
+}
+.Explore .card h3{
+  margin-top: 8px;
+font-size: 40px;
+font-weight: 700;
+line-height: 100%;
+letter-spacing: -1%;
+}
+.Explore .card p{
+  max-width: 710px;
+  margin-top: 13px;
+font-size: 16px;
+font-weight: 300;
+line-height: 150%;
+color: #575757;
+}
+.Explore .card ul{
+  margin-top: 15px;
+font-size: 17px;
+font-weight: 300;
+line-height: 150%;
+color: #575757;
+margin-left: 15px;
+}
+.Explore .btn{
+  margin-top: 30px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.table{
+  margin-top: 70px;
+  border: 2px solid #797878;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px #575757;
+  padding: 44px 24px;
+}
+.table h2{
+  font-size: 32px;
+  font-family: 700;
+  line-height: 40px;
+  letter-spacing: 0.65px;
+  color: #111C2D;
+}
+.table p{
+  margin:8px 0px 24px;
+  font-size: 16px;
+  font-family: 300;
+  line-height: 24px;
+  color: #505F76;
+}
+.table table{
+  width: 100%;
+   border-collapse: collapse;
+}
+.table table tr,td,th{
+  border: 2px solid black;
+   padding: 16px 24px;
+}
+.table table thead{
+  background-color: #A73131;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.14px;
+ 
+}
+.table table tbody td:nth-child(1){
+  color: #A73131;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.table table tbody td:nth-child(2){
+  color: #111C2D;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.table table tbody td:nth-child(3){
+  color: #505F76;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+}
+.table table tbody td:nth-child(4){
+  color: #000000;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 0.24px;
+}
+table tbody tr:nth-child(1) td:nth-child(4) {
+    color: red;
+}
+table tbody tr:nth-child(7) td:nth-child(4) {
+    color: #BDA004;
+}
